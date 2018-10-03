@@ -11,49 +11,95 @@
 // Hangman Animation
 ////////////////////////////////////////
 
-$('.hangman').mouseenter(function() {
+//
+// ADD CLASS
+//
+
+$('div.hangman').mouseenter(function() {
     $(this).css("cursor","pointer");
-    $('#hangman').animate({"top": "-=115px" }, "slow" );
+    $('h2#hangman').animate({"top": "-=35px", "opacity": "1"}, "slow" );
 });
 
-$('#hangman').mouseleave(function() {   
-    $(this).animate({"top": "+=115px" }, "slow" );
+$('div.hangman').mouseleave(function() {   
+    $('h2#hangman').animate({"top": "+=35px", "opacity": "0"}, "slow" );
 });
 
 ////////////////////////////////////////
 // Unit-4-Game Animation
 ////////////////////////////////////////
 
-$('.unit-4-game').mouseenter(function() {
+$('div.unit-4-game').mouseenter(function() {
     $(this).css("cursor","pointer");
-    $('#unit-4-game').animate({"top": "-=115px" }, "slow" );
+    $('h2#unit-4-game').animate({"top": "-=35px","opacity": "1"}, "slow" );
 });
 
-$('#unit-4-game').mouseleave(function() {   
-    $(this).animate({"top": "+=115px" }, "slow" );
+$('div.unit-4-game').mouseleave(function() {   
+    $('h2#unit-4-game').animate({"top": "+=35px", "opacity": "0"}, "slow" );
 });
 
 
 ////////////////////////////////////////
 // Trivia Game Animation
 ////////////////////////////////////////
-$('.trivia-game').mouseenter(function() {
+$('div.trivia-game').mouseenter(function() {
     $(this).css("cursor","pointer");
-    $('#trivia-game').animate({"top": "-=115px" }, "slow" );
+    $('h2#trivia-game').animate({"top": "-=35px", "opacity": "1" }, "slow");
 });
 
-$('#trivia-game').mouseleave(function() {   
-    $(this).animate({"top": "+=115px" }, "slow" );
+$('div.trivia-game').mouseleave(function() {   
+    $('h2#trivia-game').animate({"top": "+=35px", "opacity": "0"}, "slow");
 });
 
 ////////////////////////////////////////
 // Rock Paper Scissors Animation
 ////////////////////////////////////////
-$('.rock-paper-scissors').mouseenter(function() {
+$('div.rock-paper-scissors').mouseenter(function() {
     $(this).css("cursor","pointer");
-    $('#rock-paper-scissors').animate({"top": "-=115px" }, "slow" );
+    $('h2#rock-paper-scissors').animate({"top": "-=35px", "opacity": "1" }, "slow");
 });
 
-$('#rock-paper-scissors').mouseleave(function() {   
-    $(this).animate({"top": "+=15px" }, "slow" );
+$('div.rock-paper-scissors').mouseleave(function() {   
+    $('h2#rock-paper-scissors').animate({"top": "+=35px", "opacity": "0"}, "slow");
 });
+
+
+
+
+
+
+
+// frame1 = function() {
+//     draw (0, 150, 150, 150);
+//   };
+  
+//   frame2 = function() {
+//     draw (10, 0, 10, 600);
+//   };
+ 
+//   frame3 = function() {
+//     draw (0, 5, 70, 5);
+//   };
+ 
+//   frame4 = function() {
+//     draw (60, 5, 60, 15);
+//   };
+ 
+//   torso = function() {
+//     draw (60, 36, 60, 70);
+//   };
+ 
+//   rightArm = function() {
+//     draw (60, 46, 100, 50);
+//   };
+ 
+//   leftArm = function() {
+//     draw (60, 46, 20, 50);
+//   };
+ 
+//   rightLeg = function() {
+//     draw (60, 70, 100, 100);
+//   };
+ 
+//   leftLeg = function() {
+//     draw (60, 70, 20, 100);
+//   };
