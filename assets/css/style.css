@@ -2,7 +2,7 @@
 GLOBAL
 ----------------------------------- */
 body {
-  border: 10px solid rgba(128, 128, 128, 0.87);
+  /* border: 10px solid rgba(128, 128, 128, 0.87); */
   /* border-top: 0; */
 }
 div {
@@ -55,6 +55,7 @@ ABOUT
   display: inline-block;
   min-height: 100px;
 
+  padding-top:15px;
   align-items: center;
 }
 
@@ -98,11 +99,13 @@ RESUME
   background: rgb(37, 52, 69);
   min-height: 400px;
   margin: 30px 0;
+  padding-bottom: 60px;
 }
 
 .resume-container img{
     padding: 1% 10%;   
     width:77%;
+ 
 }
 
 .resume-container h1 {
@@ -133,7 +136,7 @@ PORTFOLIO
   display: flex;
   flex-wrap: wrap;
   padding: 0 10%;
-  padding-bottom: 30px;
+  padding-bottom:80px;
 }
 
 .portfolio-container img {
@@ -148,7 +151,7 @@ PORTFOLIO
 }
 .hangman h2{
     position:absolute;
-    top:60%;
+    bottom:-25%;
     width:100%;
     height:15%;
     background:white;
@@ -171,7 +174,7 @@ PORTFOLIO
 
 .unit-4-game h2{
     position:absolute;
-    top:60%;
+    bottom:-25%;
     width:100%;
     height:15%;
     background:white;
@@ -191,7 +194,7 @@ PORTFOLIO
 }
 .trivia-game h2{
     position:absolute;
-    top:60%;
+    bottom:-25%;
     width:100%;
     height:15%;
     background:white;
@@ -212,7 +215,7 @@ PORTFOLIO
 
 .rock-paper-scissors h2{
     position:absolute;
-    top:60%;
+    bottom:-25%;
     width:100%;
     height:15%;
     background:white;
@@ -253,12 +256,14 @@ CONTACT
 .contact-links-container{
     padding: 1% 10%;  
     margin-top:10px; 
+    display:flex;
 }
 
 #github{
     border-radius:50%;
     width:50px;
     margin-right:10px;
+    align-content: center;
 }
 
 #linkedin{
@@ -266,16 +271,37 @@ CONTACT
     width:50px;
     margin-left:10px;
     margin-right:10px;
+    align-content: center;
+    padding-top:1px;
 }
 
 #gmail{
-    border-radius:6%;
-    width:60px;
+    border-radius:8%;
+    width:50px;
     margin-left:10px;
     margin-right:10px;
+    padding-top:7px;
 
 }
 
-@media only screen and (max-width: 600px) {
-   
+@media only screen and (min-width:767px) and (max-width: 600px) {
+
 }
+
+@media only screen and (min-width:359px) and (max-width: 600px) {
+  #github{
+    width:35px;
+    justify-content: center;
+}
+
+#linkedin{
+    width:35px;
+    justify-content: center;
+}
+
+#gmail{
+    width:35px;
+    justify-content: center;
+}
+}
+
