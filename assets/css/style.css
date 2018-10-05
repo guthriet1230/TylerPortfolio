@@ -2,7 +2,7 @@
 GLOBAL
 ----------------------------------- */
 body {
-  /* border: 10px solid rgba(128, 128, 128, 0.87); */
+  /* border: 60px solid rgba(128, 128, 128, 0.87); */
   /* border-top: 0; */
 }
 div {
@@ -57,6 +57,7 @@ ABOUT
 
 #profileimage {
   width: 60%;
+  min-width:200px;
   border-radius: 50%;
   margin: auto;
   text-align: center;
@@ -71,6 +72,7 @@ ABOUT
   box-sizing: content-box;
   align-items: center;
   padding: 50px;
+  padding-right:15%;
 }
 
 .about-container-copy h1 {
@@ -277,6 +279,19 @@ CONTACT
 }
 
 @media only screen and (min-width: 767px) and (max-width: 600px) {
+  .about-container {
+   
+   flex-wrap:wrap;
+  
+  }
+  
+  #profileimage {
+    
+  }
+  
+  .about-container-copy {
+   
+  }
 }
 
 @media only screen and (min-width: 359px) and (max-width: 600px) {
