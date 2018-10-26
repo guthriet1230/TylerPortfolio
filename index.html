@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tyler Guthrie</title>
+    <title>Tyler Travell</title>
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,32 +13,26 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Satisfy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
+
 </head>
 
 <body>
-
-
     <div class="container">
-        
+        <!------------------------- NAVBAR ------------------------->
         <nav class="navbar">
-       
             <h2 id="about-link"><a href="#about">About</a></h2>
-
-            <h2 id="resume-link"><a href="#resume">Resume</a></h2>
-
+            <h2 id="resume-link"><a href="#experience">Experience</a></h2>
             <h2 id="portfolio-link"><a href="#portfolio">Portfolio</a></h2>
-
             <h2 id="contact-link"><a href="#contact">Contact</a></h2>
-           
-
         </nav>
 
+        <!------------------------- "ABOUT" SECTION ------------------------->
         <section class="about-container" id="about">
-
-
             <div class="about-container-image">
                 <img id="profileimage" src=assets/images/ProfilePic.jpg> </div> <div class="about-container-copy">
-                <h1>Tyler Guthrie</h1><br>
+                <h1>Tyler Travell Guthrie</h1>
+                <hr>
+                <br>
                 <p>I've spent most of my professional career working in advertising. My above the line work with Leo
                     Burnett
                     has
@@ -63,61 +57,134 @@
 
         </section>
 
-        <section class="resume-container" id="resume">
-            <h1>Resume</h1>
-            <img src="assets/images/timelineReference2.png">
+        <!------------------------- "Experience" SECTION ------------------------->
+        <section class="experience-container" id="experience">
+            <h1>Experience</h1>
+            <hr>
+            <div id="job-container">
+
+                <!----------------------- LEO ----------------------->
+                <div class="leo job" data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="assets/images/Leo-Logo.png">
+                    <p id="leo">Leo Burnett</p>
+                    <p>Account Executive</p>
+                    <p>Singapore</p>
+                    <p>Jan '14 - May '15</p>
+
+                </div>
+
+                <!----------------------- ARC ----------------------->
+                <div class="arc job">
+                    <img src="assets/images/Arc-Logo.png">
+                    <p id="arc">Arc Worldwide</p>
+                    <p>Sr. Account Executive - Account Supervisor</p>
+                    <p>Chicago, IL</p>
+                    <p>Sep '15 - Current</p>
+                </div>
+                <!----------------------- NORTHWESTERN ----------------------->
+                <div class="northwestern job">
+                    <img src="assets/images/Northwestern-Logo.png">
+                    <p id="northwestern">Northwestern Coding Bootcamp</p>
+                    <p>Chicago, IL</p>
+                    <p>Aug '18 - Current</p>
+                </div>
+
+            </div>
+
+            <div id="job-description-container">
+                <div id="job-description">
+                    <p>Led integrated marketing on P&G’s prestige skincare brand, SK-II, for global markets:
+                        UK, USA, Australia, Japan, Korea, Greater China, Singapore, Malaysia, Thailand and Indonesia
+                        Coordinating efforts between regional agencies to create cohesive campaigns across markets for
+                        anti-aging, whitening, FTE brands
+                        <br> <br>
+                        Digital<br>
+                        Led creation a digital ecosystem across initiatives to maximize digital assets
+                        Supported design, layout and functionality of a new SK-II skin monitoring app for smartphones
+                        <br> <br>
+                        Production<br>
+                        Interim producer for several global initiatives helping coordinate efforts between agency,
+                        vendors, production houses, manage production budgets, source director & DOP reels, and
+                        organize all production meetings with clients
+                        Acting on-site agency producer at a celebrity Print/TVC shoot in Korea
+                    </p>
+                </div>
+            </div>
         </section>
 
+        <!------------------------- "PORTFOLIO" SECTION ------------------------->
         <section class="portfolio-container" id="portfolio">
             <h1>Portfolio</h1>
+            <hr>
+            <div class="portfolio-buttons">
+                <button class="button">Professional</button>
+                <button class="button">Games</button>
+                <button class="button">Projects</button>
+            </div>
+
             <div class="portfolio-container-imgs">
 
-                <div class="hangman"><a href="https://guthriet1230.github.io/Word-Guess-Game/">
-                    <h2 id="hangman">Hangman</h2>
-                    <img src="assets/images/hangman.jpg"></a>
+                <div class="port-img hangman"><a href="https://guthriet1230.github.io/Word-Guess-Game/">
+                        <h2 id="hangman">Hangman</h2>
+                        <img src="assets/images/hangman.jpg">
+                    </a>
                 </div>
 
-                <div class="unit-4-game"><a href="https://guthriet1230.github.io/unit-4-game/">
-                    <h2 id="unit-4-game">Unit-4-Game</h2>
-                    <img src="assets/images/Unit-4-Game2.png"></a>
+                <div class="port-img unit-4-game"><a href="https://guthriet1230.github.io/unit-4-game/">
+                        <h2 id="unit-4-game">Unit-4-Game</h2>
+                        <img src="assets/images/Unit-4-Game.png">
+                    </a>
                 </div>
 
-                <div class="trivia-game"><a href="https://guthriet1230.github.io/TriviaGame/">
-                    <h2 id="trivia-game">Trivia Game</h2>
-                    <img src="assets/images/trump_shrug.png">
-                </a>
+                <div class="port-img trivia-game"><a href="https://guthriet1230.github.io/TriviaGame/">
+                        <h2 id="trivia-game">Trivia Game</h2>
+                        <img src="assets/images/trump_shrug.png">
+                    </a>
                 </div>
 
-                <div class="rock-paper-scissors"><a href="https://guthriet1230.github.io/RockPaperScissors/">
-                    <h2 id="rock-paper-scissors">Rock Paper Scissors</h2>
-                    <img src="assets/images/rockpaperscissors.jpg">
-                </a>
+                <div class="port-img rock-paper-scissors"><a href="https://guthriet1230.github.io/RockPaperScissors/">
+                        <h2 id="rock-paper-scissors">Rock Paper Scissors</h2>
+                        <img src="assets/images/rockpaperscissors.jpg">
+                    </a>
                 </div>
 
             </div>
 
         </section>
+        <!------------------------- "CONTACT" FOOTER ------------------------->
+        <section class="contact-container" id="contact">
 
-        <footer class="contact-container" id="contact">
             <h1>Contact</h1>
-           
-            <ul>
-                <li>Tyler Guthrie</li>
-                <li>Address</li>
-                <li>847 - 962 - 1230</li>
-                <li>guthriet1230@gmail.com</li>
-            </ul>
+            <hr>
+            <form>
+                <input placeholder="Name" type="text" name="name" required="">
+                <br>
+                <input placeholder="Enter email" type="email" name="email" required="">
+                <br>
+                <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                <br>
+                <button id="contact-submit">Submit</button>
+            </form>
 
-            <div class="contact-links-container">
+        </section>
+
+        <footer>
+
+            <div class="footer-container">
                 <a href="https://github.com/guthriet1230"><img id="github" src="assets/images/Footer/GithubLogo.png"></a>
                 <a href="https://www.linkedin.com/in/tyler-guthrie-0a608857/"><img id="linkedin" src="assets/images/Footer/LinkedinLogo.jpg"></a>
                 <a href="mailto:guthriet1230@gmail.com"><img id="gmail" src="assets/images/Footer/GmailLogo.png"></a>
             </div>
 
         </footer>
+
     </div>
+
 </body>
+<!------------------------- SCRIPT TAGS ------------------------->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/javascript/javascript.js"></script>
+<script src="assets/javascript/javascript-anchorAnimation.js"></script>
+<script src="assets/javascript/javascript-resume.js"></script>
+<script src="assets/javascript/javascript-portfolio.js"></script>
 
 </html>

@@ -40,11 +40,15 @@ ABOUT
 
 .about-container {
   display: flex;
-  min-height: 300px;
+  min-height: 600px;
   margin: 30px 0;
   margin-top: 90px;
   background: rgba(248, 248, 248);
   padding: 20px 0;
+}
+ 
+.about-container hr{
+  border:1px rgb(37, 52, 69) solid;
 }
 
 .about-container-image {
@@ -57,7 +61,7 @@ ABOUT
 
 #profileimage {
   width: 60%;
-  min-width:200px;
+  min-width: 200px;
   border-radius: 50%;
   margin: auto;
   text-align: center;
@@ -72,12 +76,13 @@ ABOUT
   box-sizing: content-box;
   align-items: center;
   padding: 50px;
-  padding-right:15%;
+  padding-right: 15%;
 }
 
 .about-container-copy h1 {
   font-family: "Satisfy", cursive;
   font-size: 60px;
+  font-weight:900;
 }
 
 .about-container-copy p {
@@ -89,50 +94,140 @@ ABOUT
 /* --------------------------------
 RESUME
 ----------------------------------- */
-.resume-container {
+.experience-container {
   background: rgb(37, 52, 69);
-  min-height: 400px;
-  margin-top: 30px;
+  min-height: 700px;
+  margin-top: 20px;
   padding-bottom: 60px;
+  padding: 0 10%;
 }
 
-.resume-container img {
-  padding: 1% 10%;
-  width: 77%;
-  padding-bottom:90px;
+.experience-container hr{
+  border: 1px solid white;
+  text-align:center;
+  width:150px;
 }
 
-.resume-container h1 {
+.experience-container h1 {
   font-family: "Satisfy", cursive;
-  font-size: 35px;
-  padding: 1% 10%;
+  font-size: 45px;
   color: white;
-  padding-top: 90px;
+  padding-top: 50px;
+  margin-bottom: 15px;
+  font-weight:900;
+  text-align:center;
 }
+
+#job-container{
+  display:flex; 
+  margin-top:35px;
+
+}
+
+.job p{
+  text-align:center;
+  color:white;
+  font-family: "Roboto Slab", serif;
+  font-size:15px;
+}
+
+.job{
+  width:33%;
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.experience-container img {
+  width: 35%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px rgb(174, 174, 174) solid;
+  margin-bottom:10px;
+}
+
+#leo{
+  font-style:italic;
+  font-weight:700;
+  font-size:20px;
+}
+
+#northwestern{
+  font-style:italic;
+  font-weight:700;
+  font-size:20px;
+}
+
+#arc{
+  font-style:italic;
+  font-weight:700;
+  font-size:20px;
+}
+
+#job-description-container{
+  /* min-height:300px; */
+  background-color:white;
+  border: 3px rgb(174, 174, 174) solid;
+  padding:2% 10%;
+  margin-bottom:25px;
+  font-family: "Roboto Slab", serif;
+}
+
+#job-description{
+  padding:auto auto;
+}
+
 /* --------------------------------
 PORTFOLIO
 ----------------------------------- */
 .portfolio-container {
   background: rgba(248, 248, 248);
   padding-bottom: 90px;
-  margin-top:40px;
+  margin-top: 40px;
+  padding: 1% 10%;
+}
 
+.portfolio-container hr{
+  border: 1px solid rgb(37, 52, 69);
+  margin-bottom:35px;
+  text-align:center;
+  width:125px;
 }
 
 .portfolio-container h1 {
-  padding: 1% 10%;
   font-family: "Satisfy", cursive;
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(37, 52, 69);
-  padding-top: 90px;
-  padding-bottom:20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-weight:900;
+  text-align:center;
+}
+
+.portfolio-buttons {
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-buttons button {
+  width: 250px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  font-family: "Satisfy", cursive;
+  font-size: 18px;
+  color:rgb(37, 52, 69);
+  border: 2px rgb(37, 52, 69) solid;
+  background-color:white;
 }
 
 .portfolio-container-imgs {
   margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 10%;
   padding-bottom: 80px;
 }
 
@@ -141,11 +236,12 @@ PORTFOLIO
   display: inline-block;
 }
 
-.hangman {
-  width: 48%;
+.port-img {
+  width: 50%;
   position: relative;
 }
-.hangman h2 {
+
+.port-img h2 {
   position: absolute;
   bottom: 0;
   opacity: 0;
@@ -159,70 +255,6 @@ PORTFOLIO
   color: rgb(37, 52, 69);
   font-family: "Abril Fatface", cursive;
   font-size: 150%;
-  
-}
-
-.unit-4-game {
-  width: 48%;
-  position: relative;
-}
-
-.unit-4-game h2 {
-  position: absolute;
-  bottom: 0;
-  opacity: 0;
-  width: 100%;
-  height: 15%;
-  background: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(37, 52, 69);
-  font-family: "Abril Fatface", cursive;
-  font-size: 25px;
-}
-
-.trivia-game {
-  width: 48%;
-  position: relative;
-}
-
-.trivia-game h2 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 15%;
-  opacity: 0;
-  background: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(37, 52, 69);
-  font-family: "Abril Fatface", cursive;
-  font-size: 25px;
-}
-
-.rock-paper-scissors {
-  width: 48%;
-  position: relative;
-}
-
-.rock-paper-scissors h2 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 15%;
-  opacity: 0;
-  background: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(37, 52, 69);
-  font-family: "Abril Fatface", cursive;
-  font-size: 25px;
 }
 
 /* --------------------------------
@@ -230,67 +262,104 @@ CONTACT
 ----------------------------------- */
 
 .contact-container {
-  min-height: 250px;
+  min-height: 600px;
   background: rgb(37, 52, 69);
-  margin-top:40px;
-  padding-top:70px;
+  margin-top: 40px;
+  padding: 1% 10%;
+  text-align:center;
 }
 
 .contact-container h1 {
-  padding: 1% 10%;
   font-family: "Satisfy", cursive;
-  font-size: 35px;
+  font-size: 45px;
+  padding-top:50px;
   color: white;
+  font-weight:900;
 }
 
-.contact-container ul {
-  padding: 0 10%;
-  color: white;
-  font-family: "Roboto Slab", serif;
+#contact hr{
+  width:100px;
+  border:white 1px solid;
+  margin-bottom:15px;
 }
+
+#contact input{
+  width:350px;
+  background-color:rgb(20, 35, 52);
+  color:white;
+  border:2px rgb(20, 35, 52) solid;
+  margin-top:10px;
+}
+
+#contact textarea{
+  width:350px;
+  background-color:rgb(20, 35, 52);
+  color:white;
+  border:1px rgb(20, 35, 52) solid;
+  height:300px;
+  margin-top:10px;
+}
+
+#contact-submit {
+  background-color:rgb(20, 35, 52);
+  color:white;
+  border:1px white solid;
+  margin-top:15px;
+  margin-left:300px;
+}
+
+
 .contact-links-container {
-  padding: 1% 10%;
   margin-top: 10px;
   display: flex;
 }
 
+
+/* --------------------------------
+FOOTER
+----------------------------------- */
+footer {
+  background-color:rgb(20, 35, 52);
+  height: 70px;
+  position: static;
+  bottom: 0;
+  width:100%;
+}
+
+footer img {
+  width: 40px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.footer-container {
+  text-align: center;
+}
+
 #github {
   border-radius: 50%;
-  width: 50px;
-  margin-right: 10px;
-  align-content: center;
+  margin: 10px;
 }
 
 #linkedin {
-  border-radius: 7%;
-  width: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-  align-content: center;
-  padding-top: 1px;
+  border-radius: 6%;
+  margin: 10px;
+  width: 35px;
 }
 
 #gmail {
-  border-radius: 8%;
-  width: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 7px;
+  border-radius: 5%;
+  margin: 10px;
+  margin-bottom: 10px;
+  width: 35px;
 }
 
-@media only screen and (min-width: 767px) and (max-width: 600px) {
-  .about-container {
-   
-   flex-wrap:wrap;
-  
-  }
-  
-  #profileimage {
-    
-  }
-  
-  .about-container-copy {
-   
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  .portfolio-container img {
+    width: 400px;
+    flex-wrap:wrap;
+
   }
 }
 
