@@ -50,5 +50,15 @@ $('div.rock-paper-scissors').mouseleave(function() {
 });
 
 
+$("#professional-button").on("click", function(){
+    console.log("hello")
+})
+
+$("#games-button").on("click", function(){
+    console.log("hello")
+})
 
 
+$("#artwork-button").on("click", function(){
+    console.log("hello")
+})
