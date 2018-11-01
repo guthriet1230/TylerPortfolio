@@ -33,28 +33,25 @@ ABOUT
 ----------------------------------- */
 
 .about-container {
-  /* display: flex; */
-  min-height: 600px;
+  min-height: 400px;
   margin: 30px 0;
   margin-top: 90px;
   background: rgba(248, 248, 248);
   padding: 0 10%;
-}
-
-.about-container-image {
-  width: 30%;
-  min-height: 100px;
+  padding-top:40px;
 }
 
 #profileimage {
-  width: 60%;
   border-radius: 50%;
-  margin: auto;
-  text-align: center;
+  width: 250px;
+  float:left;
+  margin:25px;
+  top:20px;
 }
  
 .about-container hr{
   border:1px rgb(37, 52, 69) solid;
+  margin-bottom:30px;
 }
 
 .about-container-copy {
@@ -83,10 +80,10 @@ RESUME
 ----------------------------------- */
 .experience-container {
   background: rgb(37, 52, 69);
-  min-height: 700px;
+  min-height: 400px;
   margin-top: 20px;
   padding: 0 10%;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .experience-container hr{
@@ -112,7 +109,7 @@ RESUME
 }
 
 .job{
-  min-width:380px;
+  min-width:375px;
   text-align:center;
   margin:auto auto;
   margin-bottom:50px;
@@ -129,10 +126,7 @@ RESUME
 .job img {
   width: 150px;
   border-radius: 50%;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   border: 3px rgb(174, 174, 174) solid;
-  /* margin-bottom:10px; */
 }
 
 #leo{
@@ -154,16 +148,11 @@ RESUME
 }
 
 #job-description-container{
-  /* min-height:300px; */
   background-color:white;
   border: 3px rgb(174, 174, 174) solid;
   padding:2% 10%;
-  margin-bottom:25px;
   font-family: "Roboto Slab", serif;
-}
-
-#job-description{
-  padding:auto auto;
+  margin-bottom:25px;
 }
 
 /* --------------------------------
@@ -171,7 +160,6 @@ PORTFOLIO
 ----------------------------------- */
 .portfolio-container {
   background: rgba(248, 248, 248);
-  padding-bottom: 90px;
   margin-top: 40px;
   padding: 1% 10%;
 }
@@ -214,20 +202,22 @@ PORTFOLIO
 }
 
 .portfolio-container-imgs {
+  margin: 0 auto;
   margin-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap;
   padding-bottom: 80px;
+  text-align:center;
+  width: 80%;
 }
 
 .portfolio-container img {
   width: 100%;
-  display: inline-block;
+  text-align:center;
 }
 
 .port-img {
-  width: 50%;
+  width: 100%;
   position: relative;
+  text-align:center;
 }
 
 .port-img h2 {
@@ -245,6 +235,38 @@ PORTFOLIO
   font-family: "Abril Fatface", cursive;
   font-size: 150%;
 }
+.hangman{
+  order:1;
+}
+
+.unit-4-game{
+  order:2;
+}
+
+.trivia-game{
+  order:3;
+}
+
+.rock-paper-scissors{
+  order:4;
+}
+
+#repo h2{
+  color: rgb(37, 52, 69);
+  font-family: "Abril Fatface", cursive;
+  font-size: 150%;
+  margin-top:50px;
+}
+
+#repo .repo{
+  width:100px;
+  height:100px;
+  margin-top:25px;
+  border-radius:50%;
+}
+
+
+
 
 /* --------------------------------
 CONTACT
@@ -297,12 +319,10 @@ CONTACT
   margin-left:300px;
 }
 
-
 .contact-links-container {
   margin-top: 10px;
   display: flex;
 }
-
 
 /* --------------------------------
 FOOTER
@@ -372,6 +392,13 @@ PHONE MEDIA QUERY
 .navbar h2 {
   margin:auto 15px;
 }
+.job{
+min-width:300px;
+}
+
+/* nav{
+  max-width:375px;
+} */
 
 #experience{
   padding-bottom:10px;
@@ -396,10 +423,6 @@ PHONE MEDIA QUERY
   #contact-submit {
     margin-left:220px;
   }
-
-
-
-
   
   #github {
     width: 35px;
