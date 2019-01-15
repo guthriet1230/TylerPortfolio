@@ -10,32 +10,32 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/TG_favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Satisfy" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Satisfy|Bitter" rel="stylesheet">
 
 </head>
 
-<body>
-    <div class="container">
+<body background="ProfilePic_1.jpg">
+        <div id="about"></div>
         <!------------------------- NAVBAR ------------------------->
         <nav class="navbar">
-            <h2 id="about-link"><a href="#about">About</a></h2>
-            <h2 id="resume-link"><a href="#experience">Experience</a></h2>
-            <h2 id="portfolio-link"><a href="#portfolio">Portfolio</a></h2>
-            <h2 id="contact-link"><a href="#contact">Contact</a></h2>
+            <h3 id="about-link"><a href="#about">About</a></h3>
+            <h3 id="resume-link"><a href="#experience">Experience</a></h3>
+            <h3 id="education-link"><a href="#education">Education</a></h3>
+            <h3 id="portfolio-link"><a href="#portfolio">Portfolio</a></h3>
+            <!-- <h3 id="contact-link"><a href="#contact">Contact</a></h3> -->
         </nav>
-
+        
+<div id="body">
+    <!-- <img src="assets/images/ProfilePic_1.jpg" id="background-image"> -->
         <!------------------------- "ABOUT" SECTION ------------------------->
-        <section class="about-container" id="about">
-     
-            <img id="profileimage" src=assets/images/ProfilePic.jpg> 
-           
-
-            <div class="about-container-copy">
-                <h1>Tyler Travell Guthrie</h1>
+        
+        <section class="about-container">
+        
+                <h1>Tyler Guthrie</h1>
+                <h2 id="about-about">About</h2>
                 <hr>
                 <br>
+                <div id="about-copy">
                 <p>I've spent most of my professional career working in advertising. My above the line work with Leo
                     Burnett
                     has
@@ -57,167 +57,106 @@
                     accelerating.
                     For that reason, I consider myself a life-long student.</p>
             </div>
-
         </section>
 
-        <!---------------------------------------------- "EXPERIENCE" SECTION ------------------------------------------->
-        <section class="experience-container" id="experience">
-            <h1>Experience</h1>
+        <!------------------------- "EXPERIENCE" SECTION ------------------------->
+        <div id="experience"></div>
+        <section class="experience-container">
+            <h2>Experience</h2>
             <hr>
+            <br>
             <div id="job-container">
-
-                <!----------------------- Leo Icon ----------------------->
-                <div class="job" id="leo-job">
-                    <img src="assets/images/Leo-Logo.png">
-                    <p id="leo">Leo Burnett</p>
-                    <p>Global Account Executive</p>
-                    <p>Singapore</p>
-                    <p>Jan '14 - May '15</p>
-
-                </div>
-
                 <!----------------------- Arc Icon ----------------------->
                 <div class="job" id="arc-job">
                     <img src="assets/images/Arc-Logo.png">
-                    <p id="arc">Arc Worldwide</p>
+                    <p class="copy" id="arc">Arc Worldwide</p>
                     <p>Sr. Account Executive - Account Supervisor</p>
                     <p>Chicago, IL</p>
                     <p>Sep '15 - Current</p>
                 </div>
-                <!----------------------- Northwestern Icon ----------------------->
-                <div class="job" id="northwestern-job">
-                    <img src="assets/images/Northwestern-Logo.png">
-                    <p id="northwestern">Northwestern Coding Bootcamp</p>
-                    <p>Student</p>
-                    <p>Chicago, IL</p>
-                    <p>Aug '18 - Current</p>
-                </div>
+               <!----------------------- Leo Icon ----------------------->
+            <div class="job" id="leo-job">
+                <img src="assets/images/Leo-Logo.png">
+                <p class="copy" id="leo">Leo Burnett</p>
+                <p>Global Account Executive</p>
+                <p>Singapore</p>
+                <p>Jan '14 - May '15</p>
 
             </div>
-
-            <div id="job-description-container">
-                <!------------------------ Leo Description ---------------------->
-                <div id="job-description-leo">
-                    <p>Led integrated marketing on P&G’s prestige skincare brand, SK-II, for global markets:
-                        UK, USA, Australia, Japan, Korea, Greater China, Singapore, Malaysia, Thailand and Indonesia
-                        Coordinating efforts between regional agencies to create cohesive campaigns across markets for
-                        anti-aging, whitening, FTE brands
-                        <br> <br>
-                        Digital<br>
-                        Led creation a digital ecosystem across initiatives to maximize digital assets
-                        Supported design, layout and functionality of a new SK-II skin monitoring app for smartphones
-                        <br> <br>
-                        Production<br>
-                        Interim producer for several global initiatives helping coordinate efforts between agency,
-                        vendors, production houses, manage production budgets, source director & DOP reels, and
-                        organize all production meetings with clients
-                        Acting on-site agency producer at a celebrity Print/TVC shoot in Korea
-                    </p>
-                </div>
-
-                <!---------------------------Arc Description ------------------>
-                <div id="job-description-arc">
-                    <p>Supported new business pitch to acquire the MilkPEP client and proceeded to lead onboarding for
-                        Arc. Partner with strategy and analytics team to understand how to guide creative executions of
-                        campaigns to hit KPIs for data driven client (ROI, sales lift, impressions etc). Lead agency
-                        contact for the Great American Milk Drive, a consumer checkout donation program activated in
-                        7,000+ retail locations.</p>
-                </div>
+        </div>
 
 
-                <!-------------------- Northwestern Description -------------------->
-                <div id="job-description-northwestern">
-                    <p>Northwestern Job Description - TBD</p>
-
-                </div>
-
-            </div>
+  <!------------------------- "EDUCATION" SECTION ------------------------->
+  <div id="education"></div>
         </section>
-
-        <!------------------------------------------------ "PORTFOLIO" SECTION --------------------------------------------------->
-        <section class="portfolio-container" id="portfolio">
-            <h1>Portfolio</h1>
-            <hr>
-            <div class="portfolio-buttons">
-                <button id="professional-button" class="button">Professional</button>
-                <button id="games-button" class="button">Games</button>
-                <button id="artwork-button" class="button">Artwork</button>
+            <section class="education-container" >
+                <h2>Education</h2>
+                <hr>
+                <br>
+                <div id="education-container">
+            <div class="education" id="northwestern-education">
+                <img src="assets/images/Northwestern-Logo.png">
+                <p class="copy" id="northwestern">Northwestern Coding Bootcamp</p>
+                <p>Certificate of Completion</p>
+                <p>Chicago, IL</p>
+                <p>Aug '18 - Feb '18</p>
             </div>
 
-            <div class="portfolio-container-imgs">
-                <!---------------------------- Professional---------------------->
-                <div id="portfolio-professional">Professional Websites go here</div>
-                <!--------------------------- Games ----------------------->
-                <div id="portfolio-games">
-                    <div class="port-img hangman"><a href="https://guthriet1230.github.io/Word-Guess-Game/">
-                            <h2 id="hangman">Hangman</h2>
-                           
-                            <img src="assets/images/hangman.jpg">
-                        </a>
-                      
-                    </div>
-
-                    <div class="port-img unit-4-game"><a href="https://guthriet1230.github.io/unit-4-game/">
-                            <h2 id="unit-4-game">Unit-4-Game</h2>
-                            <img src="assets/images/Unit-4-Game.png">
-                        </a>
-                    </div>
-
-                    <div class="port-img trivia-game"><a href="https://guthriet1230.github.io/TriviaGame/">
-                            <h2 id="trivia-game">Trivia Game</h2>
-                            <img src="assets/images/trump_shrug.png">
-                        </a>
-                    </div>
-
-                    <div class="port-img rock-paper-scissors"><a href="https://guthriet1230.github.io/RockPaperScissors/">
-                            <h2 id="rock-paper-scissors">Rock Paper Scissors</h2>
-                            <img src="assets/images/rockpaperscissors.jpg">
-                        </a>
-                    </div>
-
-                    <div id="repo">
-                        <h2>View the Code!</h2>
-                        <a href="https://github.com/guthriet1230/Word-Guess-Game"><img class="repo" src="assets/images/hangman.jpg"></a>
-                        <a href="https://github.com/guthriet1230/unit-4-game"><img  class="repo"src="assets/images/Unit-4-Game.png"></a>
-                        <a href="https://github.com/guthriet1230/TriviaGame"><img  class="repo"src="assets/images/trump_shrug.png"></a>
-                        <a href="https://github.com/guthriet1230/RockPaperScissors"><img  class="repo"src="assets/images/rockpaperscissors.jpg"></a>
-                    </div>
-                </div>
-                <!----------------------------------------------------- Artwork --------------------------------------------->
-                <div id="portfolio-artwork">Artwork goes here</div>
-
+            <div class="education" id="ucsb-education">
+                <img src="assets/images/UCSBlogo.png">
+                <p class="copy" id="ucsb">UCSB</p>
+                <p>B.A. Environemntal Science</p>
+                <p>Santa Barbara, CA</p>
+                <p>Sept '09 - Jun '13</p>
             </div>
 
         </section>
-        <!------------------------- "CONTACT" SECTION ------------------------->
-        <section class="contact-container" id="contact">
 
-            <h1>Contact</h1>
-            <hr>
-            <form>
-                <input placeholder="Name" type="text" name="name" required="">
-                <br>
-                <input placeholder="Enter email" type="email" name="email" required="">
-                <br>
-                <textarea placeholder="Your Message" type="text" name="message"></textarea>
-                <br>
-                <button id="contact-submit">Submit</button>
-            </form>
 
-        </section>
-
-        <!------------------------- FOOTER ------------------------->
-        <footer>
-
-            <div class="footer-container">
-                <a href="https://github.com/guthriet1230"><img id="github" src="assets/images/Footer/GithubLogo.png"></a>
-                <a href="https://www.linkedin.com/in/tyler-guthrie-0a608857/"><img id="linkedin" src="assets/images/Footer/LinkedinLogo.jpg"></a>
-                <a href="mailto:guthriet1230@gmail.com"><img id="gmail" src="assets/images/Footer/GmailLogo.png"></a>
+ <!------------------------- "PORTFOLIO" SECTION ------------------------->
+ <div id="portfolio"></div>
+ <section class="portfolio-container">
+    <h2>Portfolio</h2>
+    <hr>
+    <br>
+    <div id="portfolio-container-imgs">
+            <div class="port-img hangman"><a href="https://guthriet1230.github.io/Word-Guess-Game/">
+                    <h2 id="hangman">Hangman</h2>
+                   
+                    <img src="assets/images/hangman.jpg">
+                </a>
             </div>
 
-        </footer>
+            <div class="port-img unit-4-game" class="portfolio"><a href="https://guthriet1230.github.io/unit-4-game/">
+                    <h2 id="unit-4-game">Unit-4-Game</h2>
+                    <img src="assets/images/Unit-4-Game.png">
+                </a>
+            </div>
 
+            <div class="port-img trivia-game" class="portfolio"><a href="https://guthriet1230.github.io/TriviaGame/">
+                    <h2 id="trivia-game">Trivia Game</h2>
+                    <img src="assets/images/trump_shrug.png">
+                </a>
+            </div>
+
+            <div class="port-img rock-paper-scissors" class="portfolio"><a href="https://guthriet1230.github.io/RockPaperScissors/">
+                    <h2 id="rock-paper-scissors">Rock Paper Scissors</h2>
+                    <img src="assets/images/rockpaperscissors.jpg">
+                </a>
+            </div>
+</div>
+</section>
+</div>
+<!------------------------- FOOTER ------------------------->
+<footer>
+
+    <div class="footer-container">
+        <a href="https://github.com/guthriet1230"><img id="github" src="assets/images/Footer/GithubLogo.png"></a>
+        <a href="https://www.linkedin.com/in/tyler-guthrie-0a608857/"><img id="linkedin" src="assets/images/Footer/LinkedinLogo.jpg"></a>
+        <a href="mailto:guthriet1230@gmail.com"><img id="gmail" src="assets/images/Footer/GmailLogo.png"></a>
     </div>
+</div>
+</footer>
 
 </body>
 <!------------------------- SCRIPT TAGS ------------------------->

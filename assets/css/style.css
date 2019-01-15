@@ -1,14 +1,35 @@
-/* --------------------------------
-GLOBAL
------------------------------------ */
+/*! -------------------------------- */
+/*! GLOBAL */
+/*! --------------------------------  */
+body{
+  background-color: rgb(41,41,41);
+  color: rgb(195,195,195);
+  font-family: 'Bitter', serif;
+  line-height: 1.5em;
+  background-image:url(../images/ProfilePic_2_artboardpng-03.png);
+  /* background-image:url(../images/ProfilePic_3.png); */
 
-/* --------------------------------
-NAVIGATION
------------------------------------ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#body{
+  margin-top:100px;
+  width:42.5%;
+  padding:5%;
+  padding-left:7.5%;
+}
+
+
+
+/*! -------------------------------- */
+/*! NAVIGATION */
+/*! --------------------------------  */
 .navbar {
   top: 0;
   min-height: 60px;
-  background: rgba(128, 128, 128, 0.87);
+  background: rgb(82,82,82);
   display: flex;
   justify-content: center;
   position: fixed;
@@ -16,7 +37,7 @@ NAVIGATION
   z-index: 100;
 }
 
-.navbar h2 {
+.navbar h3 {
   text-align: center;
   margin: auto 20px;
   color: white;
@@ -25,310 +46,136 @@ NAVIGATION
 .navbar a {
   text-decoration: none;
   color: white;
-  font-family: "Roboto Slab", serif;
+  /* font-family: "Roboto Slab", serif; */
   font-size: 20px;
 }
-/* --------------------------------
-ABOUT
------------------------------------ */
-
-.about-container {
-  min-height: 400px;
-  margin: 30px 0;
-  margin-top: 90px;
-  background: rgba(248, 248, 248);
-  padding: 0 10%;
-  padding-top:40px;
+section{
+  margin-top:20%;
 }
 
-#profileimage {
-  border-radius: 50%;
-  width: 250px;
-  float:left;
-  margin:25px;
-  top:20px;
+h2{
+  font-size:30px;
+  font-style: italic;
 }
- 
-.about-container hr{
-  border:1px rgb(37, 52, 69) solid;
-  margin-bottom:30px;
+/*! -------------------------------- */
+/*! ABOUT */
+/*! --------------------------------  */
+.about-container{
+  margin-top:0%;
 }
 
-.about-container-copy {
-  color: rgb(37, 52, 69);
-  /* min-height: 100px; */
-  /* display: inline-block; */
-  /* box-sizing: content-box; */
-  align-items: center;
-
+h1{
+  font-size:100px;
+  font-family: 'Satisfy', cursive;
+}
+#about-copy{
+  margin-top:5%;
 }
 
-.about-container-copy h1 {
-  font-family: "Satisfy", cursive;
-  font-size: 60px;
-  font-weight:900;
-}
-
-.about-container-copy p {
-  line-height: 1.5;
-  font-size: 18px;
-  font-family: "Roboto Slab", serif;
-}
-
-/* --------------------------------
-RESUME
------------------------------------ */
-.experience-container {
-  background: rgb(37, 52, 69);
-  min-height: 400px;
-  margin-top: 20px;
-  padding: 0 10%;
-  padding-bottom: 50px;
-}
-
-.experience-container hr{
-  border: 1px solid white;
-  text-align:center;
-  width:150px;
-}
-
-.experience-container h1 {
-  font-family: "Satisfy", cursive;
-  font-size: 45px;
-  color: white;
-  padding-top: 50px;
-  margin-bottom: 15px;
-  font-weight:900;
-  text-align:center;
-}
+/*! -------------------------------- */
+/*! Experience */
+/*! --------------------------------  */
 
 #job-container{
-  display:flex; 
-  margin-top:35px;
+  display:flex;
+  margin-top:5%;
+  text-align:center;
+}
+
+.experience-container img{
+  height:200px;
+  border-radius:50%;
+}
+
+.experience-container .job{
+  width:50%
+}
+.copy{
+  margin-top:10%;
+}
+/*! -------------------------------- */
+/*! Education */
+/*! --------------------------------  */
+
+#education-container{
+  display:flex;
+  margin-top:5%;
+  text-align:center;
+}
+
+.education-container img{
+  height:200px;
+  border-radius:50%;
+}
+
+.education-container .education{
+  width:50%
+}
+
+/*! -------------------------------- */
+/*! Portfolio */
+/*! --------------------------------  */
+
+/* #portfolio-container-imgs h2{
+  margin-top:1%;
+  display:flex;
+} */
+
+
+.portfolio h2{
+  width:50%;
+  margin:0%;
+}
+
+
+
+.portfolio-container img{
+  width:100%;
+  margin:2% 5%;
+}
+
+#portfolio-container-imgs{
+  display:flex;
   flex-wrap:wrap;
 }
 
-.job{
-  min-width:375px;
-  text-align:center;
-  margin:auto auto;
-  margin-bottom:50px;
-  flex-grow:1;
-}
 
-.job p{
-  text-align:center;
-  color:white;
-  font-family: "Roboto Slab", serif;
-  font-size:15px;
-}
-
-.job img {
-  width: 150px;
-  border-radius: 50%;
-  border: 3px rgb(174, 174, 174) solid;
-}
-
-#leo{
-  font-style:italic;
-  font-weight:700;
-  font-size:20px;
-}
-
-#northwestern{
-  font-style:italic;
-  font-weight:700;
-  font-size:20px;
-}
-
-#arc{
-  font-style:italic;
-  font-weight:700;
-  font-size:20px;
-}
-
-#job-description-container{
-  background-color:white;
-  border: 3px rgb(174, 174, 174) solid;
-  padding:2% 10%;
-  font-family: "Roboto Slab", serif;
-  margin-bottom:25px;
-}
-
-/* --------------------------------
-PORTFOLIO
------------------------------------ */
-.portfolio-container {
-  background: rgba(248, 248, 248);
-  margin-top: 40px;
-  padding: 1% 10%;
-}
-
-.portfolio-container hr{
-  border: 1px solid rgb(37, 52, 69);
-  margin-bottom:35px;
-  text-align:center;
-  width:125px;
-}
-
-.portfolio-container h1 {
-  font-family: "Satisfy", cursive;
-  font-size: 45px;
-  color: rgb(37, 52, 69);
-  padding-top: 50px;
-  padding-bottom: 10px;
-  font-weight:900;
-  text-align:center;
-}
-
-.portfolio-buttons {
-  padding: 0 10%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.portfolio-buttons button {
-  width: 250px;
-  height: 35px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
-  border-radius: 15px;
-  font-family: "Satisfy", cursive;
-  font-size: 18px;
-  color:rgb(37, 52, 69);
-  border: 2px rgb(37, 52, 69) solid;
-  background-color:white;
-}
-
-.portfolio-container-imgs {
-  margin: 0 auto;
-  margin-bottom: 30px;
-  padding-bottom: 80px;
-  text-align:center;
-  width: 80%;
-}
-
-.portfolio-container img {
-  width: 100%;
-  text-align:center;
-}
-
-.port-img {
-  width: 100%;
+/** FIGURING IT OUT */
+#portfolio-container-imgs .port-img {
+  width: 40%;
+  margin:2% 5%;
   position: relative;
-  text-align:center;
+  /* text-align:center; */
 }
 
 .port-img h2 {
+  margin:0 5%;
+  padding-top:2%;
   position: absolute;
   bottom: 0;
   opacity: 0;
   width: 100%;
-  height: 15%;
+  height: 17%;
   background: white;
   text-align: center;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   color: rgb(37, 52, 69);
-  font-family: "Abril Fatface", cursive;
-  font-size: 150%;
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: 'Satisfy', cursive;
+  font-size: 120%;
+  font-weight:bolder;
 }
-.hangman{
-  order:1;
-}
-
-.unit-4-game{
-  order:2;
-}
-
-.trivia-game{
-  order:3;
-}
-
-.rock-paper-scissors{
-  order:4;
-}
-
-#repo h2{
-  color: rgb(37, 52, 69);
-  font-family: "Abril Fatface", cursive;
-  font-size: 150%;
-  margin-top:50px;
-}
-
-#repo .repo{
-  width:100px;
-  height:100px;
-  margin-top:25px;
-  border-radius:50%;
-}
+/** FIGURING IT OUT */
 
 
+/*! -------------------------------- */
+/*! FOOTER */
+/*! --------------------------------  */
 
-
-/* --------------------------------
-CONTACT
------------------------------------ */
-
-.contact-container {
-  min-height: 600px;
-  background: rgb(37, 52, 69);
-  margin-top: 40px;
-  padding: 1% 10%;
-  text-align:center;
-}
-
-.contact-container h1 {
-  font-family: "Satisfy", cursive;
-  font-size: 45px;
-  padding-top:50px;
-  color: white;
-  font-weight:900;
-}
-
-#contact hr{
-  width:100px;
-  border:white 1px solid;
-  margin-bottom:15px;
-}
-
-#contact input{
-  width:350px;
-  background-color:rgb(20, 35, 52);
-  color:white;
-  border:2px rgb(20, 35, 52) solid;
-  margin-top:10px;
-}
-
-#contact textarea{
-  width:350px;
-  background-color:rgb(20, 35, 52);
-  color:white;
-  border:1px rgb(20, 35, 52) solid;
-  height:300px;
-  margin-top:10px;
-}
-
-#contact-submit {
-  background-color:rgb(20, 35, 52);
-  color:white;
-  border:1px white solid;
-  margin-top:15px;
-  margin-left:300px;
-}
-
-.contact-links-container {
-  margin-top: 10px;
-  display: flex;
-}
-
-/* --------------------------------
-FOOTER
------------------------------------ */
 footer {
-  background-color:rgb(20, 35, 52);
+  background-color:rgb(82, 82, 82);
   height: 70px;
   position: static;
   bottom: 0;
@@ -438,4 +285,8 @@ min-width:300px;
     width: 35px;
     justify-content: center;
   }
+}
+
+#about-about{
+  margin-top:15%;
 }
