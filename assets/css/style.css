@@ -4,11 +4,11 @@
 body{
   background-color: rgb(41,41,41);
   color: rgb(195,195,195);
-  font-family: 'Bitter', serif;
+  /* font-family: 'Bitter', serif; */
+  font-family: 'Archivo Black', sans-serif;
   line-height: 1.5em;
   /* background-image:url(../images/ProfilePic_2_artboardpng-03.png); */
-  background-image:url(../images/ProfilePic_3_copy_copy.png);
-
+  background-image:url(../images/Background_Img/ProfilePic_3_copy_copy.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +20,9 @@ body{
   padding:5%;
   padding-left:7.5%;
 }
-
+p{
+  font-family: 'Lato', sans-serif;
+}
 
 
 /*! -------------------------------- */
@@ -66,7 +68,7 @@ h2{
 
 h1{
   font-size:100px;
-  font-family: 'Satisfy', cursive;
+  /* font-family: 'Satisfy', cursive; */
 }
 #about-copy{
   margin-top:5%;
