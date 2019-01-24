@@ -5,7 +5,7 @@ App
 ------
 https://guthriet1230.github.io/TylerPortfolio/
 
-Technical Skills
+Technical Skills Learned
 ------
 - HTML5
 - CSS3/Bootstrap
