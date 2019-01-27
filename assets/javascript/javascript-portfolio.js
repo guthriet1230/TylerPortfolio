@@ -99,115 +99,43 @@ $('div.cup-of-sugar').mouseleave(function() {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
 // Get the modal
-var modalArc = document.getElementById('myModal-Arc');
-var modalLeo = document.getElementById('myModal-Leo');
-var modalNorthwestern = document.getElementById('myModal-Northwestern');
-var modalUCSB = document.getElementById('myModal-UCSB');
-var btnArc = document.getElementById("myBtn-Arc");
-var btnLeo = document.getElementById("myBtn-Leo");
-var btnNorthwestern = document.getElementById("myBtn-Northwestern");
-var btnUCSB = document.getElementById("myBtn-UCSB");
-var span = document.getElementsByClassName("close")[0];
+var modal = document.getElementsByClassName('modal');
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close");
 
-// When the user clicks on the button, open the modal 
-btn.onclick = function() {
-  modalArc.style.display = "block";
+// When the user clicks the button, open the modal 
+btn[0].onclick = function() {
+    modal[0].style.display = "block";
 }
-
-btn.onclick = function() {
-    modalLeo.style.display = "block";
-  }
-
-  btn.onclick = function() {
-    modalNorthwestern.style.display = "block";
-  }
-
-  btn.onclick = function() {
-    modalUCSB.style.display = "block";
-  }
-
+btn[1].onclick = function() {
+    modal[1].style.display = "block";
+}
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modalArc.style.display = "none";
+span[0].onclick = function() {
+    modal[0].style.display = "none";
 }
-
-span.onclick = function() {
-    modalLeo.style.display = "none";
-  }
-
-  span.onclick = function() {
-    modalNorthwestern.style.display = "none";
-  }
-
-  span.onclick = function() {
-    modalUCSB.style.display = "none";
-  }
+span[1].onclick = function() {
+    modal[1].style.display = "none";
+}
+btn[2].onclick = function() {
+  modal[2].style.display = "block";
+}
+btn[3].onclick = function() {
+  modal[3].style.display = "block";
+}
+span[2].onclick = function() {
+  modal[2].style.display = "none";
+}
+span[3].onclick = function() {
+  modal[3].style.display = "none";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modalArc) {
-    modalArc.style.display = "none";
-  }
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
-
-window.onclick = function(event) {
-    if (event.target == modalLeo) {
-      modalLeo.style.display = "none";
-    }
-  }
-
-  window.onclick = function(event) {
-    if (event.target == modalNorthwestern) {
-      modalNorthwestern.style.display = "none";
-    }
-  }
-
-  window.onclick = function(event) {
-    if (event.target == modalUCSB) {
-      modalUCSB.style.display = "none";
-    }
-  }
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                    Buttons - Display
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// $(document).ready(function() {
-//     // console.log( "ready!" );
-//     $("#portfolio-artwork").hide();
-//     $("#portfolio-professional").hide();
-//     $("#portfolio-games").show();
-// });
-
-
-
-// $("#professional-button").on("click", function(){
-//     // console.log("hello");
-//     $("#portfolio-professional").show();
-//     $("#portfolio-games").hide();
-//     $("#portfolio-artwork").hide();
-// });
-
-// $("#games-button").on("click", function(){
-//     // console.log("hello");
-//     $("#portfolio-professional").hide();
-//     $("#portfolio-games").show();
-//     $("#portfolio-artwork").hide();
-  
-// });
-
-
-// $("#artwork-button").on("click", function(){
-//     // console.log("hello");
-//     $("#portfolio-professional").hide();
-//     $("#portfolio-games").hide();
-//     $("#portfolio-artwork").show();
-   
-// });
-
-
-

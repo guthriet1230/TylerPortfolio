@@ -4,10 +4,8 @@
 body{
   background-color: rgb(41,41,41);
   color: rgb(195,195,195);
-  /* font-family: 'Bitter', serif; */
   font-family: 'Archivo Black', sans-serif;
   line-height: 1.5em;
-  /* background-image:url(../images/ProfilePic_2_artboardpng-03.png); */
   background-image:url(../images/Background_Img/ProfilePic_3_copy_copy.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -116,32 +114,63 @@ h1{
 /*! -------------------------------- */
 /*! Modals */
 /*! --------------------------------  */
+.myBtn{
+  background-color: rgb(195,195,195);
+  color:white;
+  height:7.5%;
+  border-radius:5px;
+  margin-top:2%;
+  text-transform: uppercase;  
+  font-weight:bold;
+}
 
-
-/* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 90%; 
+  margin-left:5%;
+  margin-right:5%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  color:black;
 }
 
-/* Modal Content/Box */
+
+.modal li{
+  color:black;
+  font-family: 'Lato', sans-serif;
+  list-style: disc;
+  margin-left:10%;
+}
+
+.modal hr{
+  width:90%;
+}
+.modal-body-container{
+  width:90%;
+  margin:0 5%;
+  text-align: middle;
+}
+
+.modal-body{
+  text-align: left;
+}
+
+
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto; 
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
-/* The Close Button */
+
 .close {
   color: #aaa;
   float: right;
