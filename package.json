@@ -1,0 +1,25 @@
+{
+  "name": "TylerPortfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio I've developed after completing a coding bootcamp through Northwestern. Through my many months of studying, I've learned many front-end and back-end languages and completed the course with a focus on the MERN stack. I encourage you to view the page itself!",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guthriet1230/TylerPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guthriet1230/TylerPortfolio/issues"
+  },
+  "homepage": "https://github.com/guthriet1230/TylerPortfolio#readme"
+}
