@@ -11,8 +11,9 @@
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" type="image/png" href="assets/images/TG_favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy|Bitter|Archivo+Black|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fade.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/Icons/TG_Logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy|Bitter|Archivo+Black|Lato|Roboto" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133726686-1"></script>
@@ -29,30 +30,35 @@
 </head>
 
 <body background="ProfilePic_1.jpg">
-        <div id="about"></div>
+      
         <!------------------------- NAVBAR ------------------------->
         <nav class="navbar">
             <h3 id="about-link"><a href="#about">About</a></h3>
             <h3 id="resume-link"><a href="#experience">Experience</a></h3>
             <h3 id="education-link"><a href="#education">Education</a></h3>
             <h3 id="portfolio-link"><a href="#portfolio">Portfolio</a></h3>
+            <h3 id="footer-link"><a href="#footer">Contact</a></h3>
             <!-- <h3 id="contact-link"><a href="#contact">Contact</a></h3> -->
         </nav>
         
 <div id="body">
-    <!-- <img src="assets/images/ProfilePic_1.jpg" id="background-image"> -->
         <!------------------------- "ABOUT" SECTION ------------------------->
         
         <section class="about-container">
-        
-                <h1>Tyler</h1>  
+        <div id="tyler">
+                <h1>Tyler</h1>  <br>
                 <h1>Guthrie</h1>
+            </div>
+            <div id="fade">
+                    <div id="about">
+                <h3 id="subhead">People Person. Web Developer. Optimist.</h3>
+            </div>
                 <h2 id="about-about">About</h2>
                 <hr>
-        
+      
                 <div id="about-copy">
-
-                <h3>People Person. Web Developer. Optimist.</h3><br>
+               
+                
                 <p> My lifelong working career in marketing/communications at Leo Burnett and Arc Worldwide has taught me how vital branding and strategic brand placement is in an increasingly digital environment. This career has also taught me important skills transferable to my new desired career in web development: collaboration, attention to detail, problem-solving, and most importantly, effective user engagement. 
 
                 <br><br>As of mid-2018, I've taken it upon myself to familiarize myself with the digital world and took a deep dive into coding and web development by taking a coding bootcamp through Northwestern. This is my first step in becoming a lifelong learner dedicated to educating myself on a variety of technologies in an increasingly digital and fast-paced world.</p>
@@ -161,7 +167,7 @@
                 <p class="copy" id="northwestern">Northwestern Coding Bootcamp</p>
                 <p>Certificate of Completion</p>
                 <p>Chicago, IL</p>
-                <p>Aug '18 - Feb '18</p>
+                <p>Aug '18 - Mar '18</p>
 
                 <!-- NORTHWESTERN MODAL -->
                 <button class="myBtn" class="modalButton">Learn More</button>
@@ -170,11 +176,15 @@
                         <div class="modal-header">
                             <span class="close">×</span>
                             <h2>Northwestern</h2>
+                            <hr>
                         </div>
                         <div class="modal-body-container">
                         <div class="modal-body">
-                            <p>Some text in the Modal Body</p>
-                            <p>Some other text...</p>
+                                <h4>Web Development Bootcamp (8/18 - 3/19)</h4> 
+                                <p>In 2018 I discovered a new passion in my life - coding. After completing several online courses, I decided to further my education by signing up for the Northwestern School of Professional Study Web Development Bootcamp. During this course I learned many new languages - LANGUAGEs and imporant concepts - NoSQL vs SQL database, web scraping, etc. <br>
+                                    <br>
+                                    This class taught me a lot, but it's only the beginning of my journey as a developer. Every day i continue to take on new challenges such as hosting my own web page, learning how to code blockchain, and many other things still to come!
+                                </p>
                         </div>
                         </div>
                         </div>
@@ -196,11 +206,11 @@
                         <div class="modal-header">
                             <span class="close">×</span>
                             <h2>UC Santa Barbara</h2>
+                            <hr>
                         </div>
                         <div class="modal-body-container">
                         <div class="modal-body">
-                            <p>Some text in the Modal Body</p>
-                            <p>Some other text...</p>
+                           <p>As a young person, I decided to take on a challenge of environment. One summer, while doing an internship in Shanghai writing a Corporate Social Responsibility report to be used to inform jfklda;. I decided i loved </p>
                         </div>
                         </div>
                         </div>
@@ -217,78 +227,85 @@
     <br>
         <div id="portfolio-container-imgs">
 
-                <div class="port-img hangman">
+                <div class="port-img rock-paper-scissors portfolio">
+                        <a href="https://guthriet1230.github.io/RockPaperScissors/">
+                        <h2 id="rock-paper-scissors">Rock Paper Scissors</h2>
+                        <img src="assets/images/Projects/rockpaperscissors.jpg">
+                        </a>
+                    </div>
+
+                <div class="port-img hangman portfolio">
                     <a href="https://guthriet1230.github.io/Word-Guess-Game/">
                     <h2 id="hangman">Hangman</h2>
                     <img src="assets/images/Projects/hangman.jpg">
                     </a>
                 </div>
 
-                <div class="port-img unit-4-game" class="portfolio">
-                    <a href="https://guthriet1230.github.io/unit-4-game/">
-                    <h2 id="unit-4-game">Unit-4-Game</h2>
-                    <img src="assets/images/Projects/Unit-4-Game.png">
-                    </a>
-                </div>
-
-                <!-- <div class="port-img trivia-game" class="portfolio">
-                    <a href="https://guthriet1230.github.io/TriviaGame/">
-                    <h2 id="trivia-game">Trivia Game</h2>
-                    <img src="assets/images/Projects/trump_shrug.png">
-                    </a>
-                </div> -->
-
-                <div class="port-img rock-paper-scissors" class="portfolio">
-                    <a href="https://guthriet1230.github.io/RockPaperScissors/">
-                    <h2 id="rock-paper-scissors">Rock Paper Scissors</h2>
-                    <img src="assets/images/Projects/rockpaperscissors.jpg">
-                    </a>
-                </div>
-
-                <div class="port-img budzz" class="portfolio">
+                <div class="port-img budzz portfolio">
                     <a href="https://api-amazons.github.io/Budzz/">
                     <h2 id="budzz">Budzz</h2>
                     <img src="assets/images/Projects/Budzz_2.png">
                     </a>
                 </div>
 
-                <div class="port-img friend-finder" class="portfolio">
-                    <a href="https://safe-dawn-91728.herokuapp.com">
+                <div class="port-img friend-finder portfolio">
+                    <a href="https://friend-finder-98593.herokuapp.com/">
                     <h2 id="friend-finder">Friend Finder</h2>
                     <img src="assets/images/Projects/friend-finder.png">
                     </a>
                 </div>
 
 
-                <div class="port-img cup-of-sugar" class="portfolio">
+                <div class="port-img cup-of-sugar portfolio">
                     <a href="https://crispycodersprojecttwo.herokuapp.com/">
                     <h2 id="cup-of-sugar">Cup of Sugar</h2>
                     <img src="assets/images/Projects/cupofsugar.png">
                     </a>
                 </div>
 
-
-
-
-
-
-        
-
+                <div class="port-img news-scraper portfolio">
+                    <a href="  https://news-scraper-nyt-tg.herokuapp.com/">
+                    <h2 id="news-scraper">News Scraper</h2>
+                    <img src="assets/images/Projects/news-srapper.png">
+                    </a>
+                </div>
 
 </div>
 </section>
 </div>
-<!------------------------- FOOTER ------------------------->
-<footer>
+</div>
+<!------------------------- CONTACT/FOOTER ------------------------->
 
-    <div class="footer-container">
+
+
+<div id="footer">
+<div id="footer-wrapper">
+        <h2>Contact</h2>
+        <hr>
+        <br>
+    <div id="form-div">
+            <form>
+                <label class="label">Name:</label><br>
+                <input placeholder="John Smith"></input><br>
+                <label class="label">Email:</label><br>
+                <input placeholder="JohnSmith@gmail.com"></input><br>
+                <label class="label">Message:</label><br>
+                <textarea placeholder="Hello Tyler..."></textarea><br>
+                <div id="submit-button">
+                <button id="button" type="submit">Submit</button>
+            
+            </div></form>
+    </div>
+               
+    <div id="footer-links">
+        <a  href="/public/assets/images/CV/Tyler_Guthrie_CV.pdf" download><img src="assets/images/Icons/CV_logo.png">
         <a href="https://github.com/guthriet1230"><img id="github" src="assets/images/Footer/GithubLogo.png"></a>
         <a href="https://www.linkedin.com/in/tyler-guthrie-0a608857/"><img id="linkedin" src="assets/images/Footer/LinkedinLogo.jpg"></a>
-        <a href="mailto:guthriet1230@gmail.com"><img id="gmail" src="assets/images/Footer/GmailLogo.png"></a>
+
     </div>
 </div>
-</footer>
-
+</div>
+</div>
 </body>
 <!------------------------- SCRIPT TAGS ------------------------->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
