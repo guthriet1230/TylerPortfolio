@@ -76,7 +76,18 @@ $('div.news-scraper').mouseleave(function() {
     $('h2#news-scraper').animate({"top": "+=15%", "opacity": "0"}, "slow");
 });
 
+////////////////////////////////////////
+// Best-Lyfe Animation
+////////////////////////////////////////
 
+$('div.best-lyfe').mouseenter(function() {
+    $(this).css("cursor","pointer");
+    $('h2#best-lyfe').animate({"top": "-=15%", "opacity": "1" }, "slow");
+});
+
+$('div.best-lyfe').mouseleave(function() {   
+    $('h2#best-lyfe').animate({"top": "+=15%", "opacity": "0"}, "slow");
+});
 
 
 

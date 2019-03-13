@@ -508,4 +508,7 @@ PHONE MEDIA QUERY
   h2{
     text-align:center;
   }
+  #footer{
+    margin-top:30px;
+  }
 }
