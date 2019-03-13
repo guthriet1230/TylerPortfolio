@@ -90,6 +90,19 @@ $('div.best-lyfe').mouseleave(function() {
 });
 
 
+////////////////////////////////////////
+// Cup-of Sugar Animation
+////////////////////////////////////////
+
+$('div.cos-react').mouseenter(function() {
+    $(this).css("cursor","pointer");
+    $('h2#cos-react').animate({"top": "-=15%", "opacity": "1" }, "slow");
+});
+
+$('div.cos-react').mouseleave(function() {   
+    $('h2#cos-react').animate({"top": "+=15%", "opacity": "0"}, "slow");
+});
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                    Modals
