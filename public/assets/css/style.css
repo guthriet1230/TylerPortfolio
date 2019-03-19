@@ -50,7 +50,8 @@ p {
   font-size: 20px;
 }
 section {
-  margin-top: 25%;
+  margin-top: 35%;
+  margin-bottom:5%;
 }
 
 h2 {
@@ -367,10 +368,14 @@ a:hover
   color:white;
 }
 
+#footer-wrapper h2{
+  text-align:center;
+}
+
 /* --------------------------------
 IPAD MEDIA QUERY
 ----------------------------------- */
-@media only screen and (min-width: 800px) and (max-width: 1024px) {
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
   #body {
     margin: 0 10%;
     padding: 0;
@@ -390,11 +395,18 @@ IPAD MEDIA QUERY
   }
 
   #footer h2{
-    text-align:left;
+    text-align:center;
   }
   .port-img h2{
     font-size:22px;
   }
+  div#footer-wrapper h2{
+    text-align:center;
+  }
+  div#tyler{
+    margin-top:300px;
+  }
+ 
 }
 
 /* --------------------------------
