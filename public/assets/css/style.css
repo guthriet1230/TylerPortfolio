@@ -195,7 +195,7 @@ h1 {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
@@ -211,6 +211,61 @@ h1 {
 
 .modal-body h4{
   font-size:18px;
+}
+
+#modalHeaderText{
+  margin-bottom:20px;
+  font-size:30px;
+  text-decoration: underline;
+}
+.modal-body h4{
+ 
+  font-size:20px;
+ margin-top:30px;
+}
+
+div#technology{
+  display:flex;
+  flex-direction:row;
+ margin-top: 15px;
+ justify-content: space-around;
+
+}
+
+.tech-img{
+  max-width:50px;
+  max-height:50px;
+ 
+  width: auto;
+  height: auto;
+}
+
+.tech-div{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+div#technology h6{
+  font-weight:200;
+}
+.modal-footer{
+  margin-top:15px;
+  display:flex;
+  justify-content: space-around;
+}
+.modal-footer button{
+  background-color:black;
+  height:30px;
+  width:40%;
+  color:white;
+  font-weight:200;
+  border-radius:5px;
+}
+
+button.close{
+  border-radius:10px;
 }
 
 /*! -------------------------------- */
@@ -262,6 +317,12 @@ h3.portfolio-header{
   text-align:center;
 }
 
+#Bootcamp-Apps{
+  margin-top:100px;
+}
+#Personal-Apps{
+  margin-top:50px;
+}
 /*! -------------------------------- */
 /*! FOOTER */
 /*! --------------------------------  */
